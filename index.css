@@ -1,0 +1,141 @@
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    height: 100vh;
+    color: black;
+}
+.sidebar {
+    background-color: white;
+    height: 100vh;
+    position: fixed;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.sidebar .nav-link {
+    color: #e45447;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar .nav-link:hover {
+    color: white;
+    background-color: #e45447;
+}
+
+.sidebar .nav-item {
+    flex-grow: 1;
+    text-align: center;
+}
+.icons{
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    margin-bottom: 5px;
+}  
+  .container {
+    max-width: 1200px;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 4em;
+    color: #000;
+  }
+  
+  p {
+    font-size: 2em;
+    color: #666;
+  }
+  .btn-danger {
+    background-color: #e45447;
+    border: none;
+    margin-top: 20px;
+  }
+  .chatbox {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #90acd1; /* Adjust to the blue color you want */
+    color: white;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px 5px 0px 5px; /* Adjust if you want more or less curvature */
+    position: relative;
+    font-family: Arial, sans-serif;
+    margin-bottom: 40px;
+  }
+  
+  /* This creates the tail of the chatbox */
+  .chatbox::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 89%;
+    width: 0;
+    height: 0;
+    border: 15px solid transparent;
+    border-top-color: #90acd1;
+    border-bottom: 0;
+    border-right: 0;
+    transform: translate(50%, 100%);
+  }
+  
+  .name{
+    font-weight: 800;
+  }
+  h1{
+    font-weight: 800;
+  }
+  #skills {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  #skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .skill {
+    margin: 10px 0;
+  }
+  
+  .progress-container {
+    position: relative;
+  }
+  
+  progress {
+    width: 100%;
+    appearance: none;
+    height: 20px;
+  }
+  
+  progress::-webkit-progress-bar {
+    background-color: #eee;
+  }
+  
+  progress::-webkit-progress-value {
+    background-color: #007bff;
+  }
+  
+  .progress-value {
+    position: absolute;
+    display: block;
+    width: 100%;
+    color: black;
+    text-align: center;
+    line-height: 20px; /* Should match the height of the progress bar */
+    font-weight: bold;
+  }
+  .paragraph{
+    text-align: justify;
+    font-size: 20px;
+  }
+  .sidebar .nav-link.active {
+    color: white;
+    background-color: #e45447;
+}
