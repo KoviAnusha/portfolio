@@ -139,3 +139,14 @@ main {
     color: white;
     background-color: #e45447;
 }
+.profile-image {
+  width: 200px; /* or any size you prefer */
+  height: 200px; /* should be the same as width for a circle */
+  border-radius: 50%; /* this makes the image circular */
+  object-fit: cover; /* this will make sure to cover the area without stretching the image */
+  border: 3px solid #e45447; /* optional: adds a border color that matches the theme */
+  margin-top: 20px; /* adjust as needed */
+  display: block; /* to enable margin auto to work */
+  margin-left: auto; /* to align the image to center of its container */
+  margin-right: auto; /* to align the image to center of its container */
+}
