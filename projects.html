@@ -4,19 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anusha Kovi's Portfolio</title>
+    <title>Anusha Kovi's Portfolio - Projects</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link href="./index.css" rel="stylesheet">
+    <link href="./project.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="container-fluid h-100">
         <div class="row h-100">
-            <!-- Sidebar -->
             <nav class="col-md-1 d-none d-md-block sidebar">
                 <div class="sidebar-sticky h-100 d-flex flex-column">
                     <ul class="nav flex-column h-100">
@@ -59,15 +61,17 @@
                     </ul>
                 </div>
             </nav>
-            <main role="main" class="col-md-11 ml-sm-auto col-lg-11 px-4 ">
+            <main role="main" class="col-md-11 ml-sm-auto col-lg-11 px-4">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-sm-1">
+                    <h1 class="portfolio-title">Projects</h1>
+                    <div class="portfolio-underline"></div>
 
-                        </div>
-                        <div class="col-sm-11">
-                            <h1>Projects</h1>
-                        </div>
+                    <div class="filter-buttons">
+                        <!-- Category buttons will be inserted here dynamically -->
+                    </div>
+                    <br>
+                    <div id="project-container" class="row">
+                        <!-- Project cards will be inserted dynamically here -->
                     </div>
                 </div>
             </main>
@@ -76,6 +80,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="projects.js"></script>
+
 </body>
 
 </html>

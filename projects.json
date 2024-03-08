@@ -1,0 +1,94 @@
+[
+    {
+        "projectId": 1,
+        "ProjectName": "Spotify Dashboard",
+        "ProjectLink": "https://github.com/KoviAnusha/PowerBI-Spotify-Dashboard",
+        "projectBgImage": "spotify.png",
+        "projectDesc": "This project presents a dynamic and interactive dashboard developed in PowerBI, showcasing an analysis of the top Spotify songs from 2018 to 2023. Utilizing a comprehensive dataset from kaggle, the dashboard provides insights into trends in music preferences, artist popularity, and song characteristics over the years. The aim is to offer users a detailed overview of the evolving music landscape, highlighting key metrics such as energy levels, average stream counts per year, and top artists. This tool is designed for music enthusiasts, industry analysts, and anyone interested in understanding the dynamics of popular music through data visualization.",
+        "skills": [
+            "PowerBI", "Python"
+        ]
+    },
+    {
+        "projectId": 2,
+        "ProjectName": "Bank Customer Churn Analysis",
+        "ProjectLink": "https://github.com/KoviAnusha/PowerBI-Churn-Analysis-For-A-Bank",
+        "projectBgImage": "bank.png",
+        "projectDesc": "This project offers an in-depth analysis of bank churn data. Churn in this context signifies the number of customers who have left the bank, commonly referred to as attrition. The dataset used for this analysis is a sample, utilized for the purpose of practicing report creation and understanding the various aspects of data analysis using PowerBI.",
+        "skills": [
+            "PowerBI"
+        ]
+    },
+    
+    {
+        "projectId": 3,
+        "ProjectName": "U.S. Healthcare Dynamics",
+        "ProjectLink": "https://github.com/KoviAnusha/PowerBI-US-Healthcare-Analytics",
+        "projectBgImage": "healthcare.png",
+        "projectDesc": "This project intricately analyzes the U.S. healthcare landscape from 2019 to 2020, offering profound insights into key facets of the industry. It is meticulously designed, with each page unfolding a different chapter, providing valuable learnings within the evolving healthcare narrative. Explore the heartbeat of healthcare, where every word is meticulously chosen for a meaningful journey.",
+        "skills": [
+            "PowerBI"
+        ]
+    },
+    {
+        "projectId": 4,
+        "ProjectName": "Tableau Covid Deaths And Vaccinations Analysis",
+        "ProjectLink": "https://github.com/KoviAnusha/Tableau-Covid-Deaths-And-Vaccinations-Analysis",
+        "projectBgImage": "covid.png",
+        "projectDesc": "Covid related dashboard.",
+        "skills": [
+            
+            "Tableau"
+        ]
+    },
+    {
+        "projectId": 5,
+        "ProjectName": "Financial Consumer Complaints Analysis",
+        "ProjectLink": "https://github.com/KoviAnusha/Financial-Consumer-Complaints-Analysis-in-Power-BI-And-Tableau",
+        "projectBgImage": "finance.png",
+        "projectDesc": "Financial Consumer",
+        "skills": [
+            "Tableau", "PowerBI"
+        ]
+    },
+    {
+        "projectId": 6,
+        "ProjectName": "Bar Code Detection",
+        "ProjectLink": "https://github.com/KoviAnusha/BarcodeDetection",
+        "projectBgImage": "barcode.png",
+        "projectDesc": "Barcode detection",
+        "skills": [
+            "Python"
+        ]
+    },
+    {
+        "projectId": 7,
+        "ProjectName": "Airbnb Analysis",
+        "ProjectLink": "https://public.tableau.com/app/profile/anusha.kovi2831/viz/AirBnBAnalysis_17095029123580/Dashboard1",
+        "projectBgImage": "airbnb.png",
+        "projectDesc": "This project offers an in-depth analysis of bank churn data. Churn in this context signifies the number of customers who have left the bank, commonly referred to as attrition. The dataset used for this analysis is a sample, utilized for the purpose of practicing report creation and understanding the various aspects of data analysis using PowerBI.",
+        "skills": [
+            "Tableau"
+        ]
+    },
+    {
+        "projectId": 8,
+        "ProjectName": "Travel Analysis",
+        "ProjectLink": "https://public.tableau.com/app/profile/anusha.kovi2831/viz/TravelAnalysis_17094306170010/Summary",
+        "projectBgImage": "travel.png",
+        "projectDesc": "This project offers an in-depth analysis of bank churn data. Churn in this context signifies the number of customers who have left the bank, commonly referred to as attrition. The dataset used for this analysis is a sample, utilized for the purpose of practicing report creation and understanding the various aspects of data analysis using PowerBI.",
+        "skills": [
+            "Tableau"
+        ]
+    },
+    {
+        "projectId": 9,
+        "ProjectName": "Netflix Movie & TV Shows Analysis",
+        "ProjectLink": "https://public.tableau.com/app/profile/anushakovi/viz/Book1_17084851697530/Netflix",
+        "projectBgImage": "netflix.png",
+        "projectDesc": "This project offers an in-depth analysis of bank churn data. Churn in this context signifies the number of customers who have left the bank, commonly referred to as attrition. The dataset used for this analysis is a sample, utilized for the purpose of practicing report creation and understanding the various aspects of data analysis using PowerBI.",
+        "skills": [
+            "Tableau"
+        ]
+    }
+]

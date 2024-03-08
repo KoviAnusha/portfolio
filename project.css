@@ -1,0 +1,32 @@
+.category-btn {
+    color: #e45447;
+    border-color: #e45447;
+    height: 35px;
+    padding: 4px;
+    margin: 5px;
+}
+
+.category-btn.active {
+    color: white;
+    background-color: #e45447;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-img-top {
+    height: 200px; /* Adjust as needed */
+    object-fit: cover; /* Adjust as needed */
+    width: 100%;
+}
+
+
+.card button {
+    margin-right: 4px;
+}
